@@ -1,0 +1,27 @@
+[project]
+name = "torchez"
+dynamic = ["version"]
+authors = [{ name = "Ninh Quang Nguyen", email = "qndt123@gmail.com" }]
+description = "A small example package"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["pyyaml", "torch"]
+
+[project.urls]
+Homepage = "https://github.com/qninhdt/torchez"
+Issues = "https://github.com/qninhdt/torchez/issues"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

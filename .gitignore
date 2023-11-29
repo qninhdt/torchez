@@ -1,0 +1,17 @@
+# python
+__pycache__/
+
+# build
+dist/
+*.egg-info/
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ide
+.vscode/
+
+# tox
+.tox/
+.mypy_cache
